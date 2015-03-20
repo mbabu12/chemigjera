@@ -14,6 +14,75 @@
 		075308231A35B53A004D4772 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075308221A35B53A004D4772 /* Images.xcassets */; };
 		075308261A35B53A004D4772 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 075308241A35B53A004D4772 /* LaunchScreen.xib */; };
 		075308321A35B53A004D4772 /* chemigjeraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 075308311A35B53A004D4772 /* chemigjeraTests.m */; };
+		0753083D1A35B5BF004D4772 /* PopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0753083C1A35B5BF004D4772 /* PopUpView.m */; };
+		0753083F1A35B5FF004D4772 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0753083E1A35B5FF004D4772 /* FacebookSDK.framework */; };
+		075308621A35B60C004D4772 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 075308601A35B60C004D4772 /* libGoogleAdMobAds.a */; };
+		075308631A35B60C004D4772 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 075308611A35B60C004D4772 /* README.txt */; };
+		0753086E1A35B65C004D4772 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075308641A35B65C004D4772 /* AdSupport.framework */; };
+		0753086F1A35B65C004D4772 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075308651A35B65C004D4772 /* AudioToolbox.framework */; };
+		075308701A35B65C004D4772 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075308661A35B65C004D4772 /* AVFoundation.framework */; };
+		075308711A35B65C004D4772 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075308671A35B65C004D4772 /* CoreGraphics.framework */; };
+		075308721A35B65C004D4772 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075308681A35B65C004D4772 /* CoreTelephony.framework */; };
+		075308731A35B65C004D4772 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075308691A35B65C004D4772 /* EventKit.framework */; };
+		075308741A35B65C004D4772 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0753086A1A35B65C004D4772 /* EventKitUI.framework */; };
+		075308751A35B65C004D4772 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0753086B1A35B65C004D4772 /* MessageUI.framework */; };
+		075308761A35B65C004D4772 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0753086C1A35B65C004D4772 /* StoreKit.framework */; };
+		075308771A35B65C004D4772 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0753086D1A35B65C004D4772 /* SystemConfiguration.framework */; };
+		075308CB1A35B9BA004D4772 /* bpg_rioni.otf in Resources */ = {isa = PBXBuildFile; fileRef = 075308CA1A35B9BA004D4772 /* bpg_rioni.otf */; };
+		075C02FB1A70F94200D4F6E2 /* brbo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075C02E81A70F94200D4F6E2 /* brbo.mp3 */; };
+		075C02FC1A70F94200D4F6E2 /* cheidevi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075C02E91A70F94200D4F6E2 /* cheidevi.mp3 */; };
+		075C02FD1A70F94200D4F6E2 /* chemi_gjera.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075C02EA1A70F94200D4F6E2 /* chemi_gjera.mp3 */; };
+		075C02FE1A70F94200D4F6E2 /* chemi_komentari.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075C02EB1A70F94200D4F6E2 /* chemi_komentari.mp3 */; };
+		075C02FF1A70F94200D4F6E2 /* daeca_macivari.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075C02EC1A70F94200D4F6E2 /* daeca_macivari.mp3 */; };
+		075C03001A70F94200D4F6E2 /* dagvatenda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075C02ED1A70F94200D4F6E2 /* dagvatenda.mp3 */; };
+		075C03011A70F94200D4F6E2 /* damakhia_bagaji.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075C02EE1A70F94200D4F6E2 /* damakhia_bagaji.mp3 */; };
+		075C03021A70F94200D4F6E2 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 075C02EF1A70F94200D4F6E2 /* data.txt */; };
+		075C03031A70F94200D4F6E2 /* gasaupatiurebeli_qalebi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075C02F01A70F94200D4F6E2 /* gasaupatiurebeli_qalebi.mp3 */; };
+		075C03041A70F94200D4F6E2 /* gataxsirebuli.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075C02F11A70F94200D4F6E2 /* gataxsirebuli.mp3 */; };
+		075C03051A70F94200D4F6E2 /* kargia_kiketi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075C02F21A70F94200D4F6E2 /* kargia_kiketi.mp3 */; };
+		075C03061A70F94200D4F6E2 /* mageni_kaxpebi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075C02F31A70F94200D4F6E2 /* mageni_kaxpebi.mp3 */; };
+		075C03071A70F94200D4F6E2 /* me_var_debili.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075C02F41A70F94200D4F6E2 /* me_var_debili.mp3 */; };
+		075C03081A70F94200D4F6E2 /* nacionali_yofila.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075C02F51A70F94200D4F6E2 /* nacionali_yofila.mp3 */; };
+		075C03091A70F94200D4F6E2 /* oiei.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075C02F61A70F94200D4F6E2 /* oiei.mp3 */; };
+		075C030A1A70F94200D4F6E2 /* patruls_vuxdi_madlobas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075C02F71A70F94200D4F6E2 /* patruls_vuxdi_madlobas.mp3 */; };
+		075C030B1A70F94200D4F6E2 /* rac_umfro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075C02F81A70F94200D4F6E2 /* rac_umfro.mp3 */; };
+		075C030C1A70F94200D4F6E2 /* why_do_dey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075C02F91A70F94200D4F6E2 /* why_do_dey.mp3 */; };
+		075C030D1A70F94200D4F6E2 /* xaxvi_xoaraa_koxora.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075C02FA1A70F94200D4F6E2 /* xaxvi_xoaraa_koxora.mp3 */; };
+		075C032A1A70F97F00D4F6E2 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C030E1A70F97F00D4F6E2 /* share.png */; };
+		075C032B1A70F97F00D4F6E2 /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C030F1A70F97F00D4F6E2 /* share@2x.png */; };
+		075C032C1A70F97F00D4F6E2 /* share@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03101A70F97F00D4F6E2 /* share@3x.png */; };
+		075C032D1A70F97F00D4F6E2 /* smileOut.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03111A70F97F00D4F6E2 /* smileOut.png */; };
+		075C032E1A70F97F00D4F6E2 /* smileOut@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03121A70F97F00D4F6E2 /* smileOut@2x.png */; };
+		075C032F1A70F97F00D4F6E2 /* smileOut@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03131A70F97F00D4F6E2 /* smileOut@3x.png */; };
+		075C03301A70F97F00D4F6E2 /* soundBtn_Out.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03141A70F97F00D4F6E2 /* soundBtn_Out.png */; };
+		075C03311A70F97F00D4F6E2 /* soundBtn_Out@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03151A70F97F00D4F6E2 /* soundBtn_Out@2x.png */; };
+		075C03321A70F97F00D4F6E2 /* soundBtn_Out@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03161A70F97F00D4F6E2 /* soundBtn_Out@3x.png */; };
+		075C03331A70F97F00D4F6E2 /* soundBtn_Over.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03171A70F97F00D4F6E2 /* soundBtn_Over.png */; };
+		075C03341A70F97F00D4F6E2 /* soundBtn_Over@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03181A70F97F00D4F6E2 /* soundBtn_Over@2x.png */; };
+		075C03351A70F97F00D4F6E2 /* soundBtn_Over@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03191A70F97F00D4F6E2 /* soundBtn_Over@3x.png */; };
+		075C03361A70F97F00D4F6E2 /* soundBtn_Stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C031A1A70F97F00D4F6E2 /* soundBtn_Stop.png */; };
+		075C03371A70F97F00D4F6E2 /* soundBtn_Stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C031B1A70F97F00D4F6E2 /* soundBtn_Stop@2x.png */; };
+		075C03381A70F97F00D4F6E2 /* soundBtn_Stop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C031C1A70F97F00D4F6E2 /* soundBtn_Stop@3x.png */; };
+		075C03391A70F97F00D4F6E2 /* subscribe.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C031D1A70F97F00D4F6E2 /* subscribe.png */; };
+		075C033A1A70F97F00D4F6E2 /* subscribe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C031E1A70F97F00D4F6E2 /* subscribe@2x.png */; };
+		075C033B1A70F97F00D4F6E2 /* subscribe@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C031F1A70F97F00D4F6E2 /* subscribe@3x.png */; };
+		075C033C1A70F97F00D4F6E2 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03211A70F97F00D4F6E2 /* header.png */; };
+		075C033D1A70F97F00D4F6E2 /* header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03221A70F97F00D4F6E2 /* header@2x.png */; };
+		075C033E1A70F97F00D4F6E2 /* header@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03231A70F97F00D4F6E2 /* header@3x.png */; };
+		075C033F1A70F97F00D4F6E2 /* smileOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03241A70F97F00D4F6E2 /* smileOver.png */; };
+		075C03401A70F97F00D4F6E2 /* smileOver@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03251A70F97F00D4F6E2 /* smileOver@2x.png */; };
+		075C03411A70F97F00D4F6E2 /* smileOver@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03261A70F97F00D4F6E2 /* smileOver@3x.png */; };
+		075C03421A70F97F00D4F6E2 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03271A70F97F00D4F6E2 /* title.png */; };
+		075C03431A70F97F00D4F6E2 /* title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03281A70F97F00D4F6E2 /* title@2x.png */; };
+		075C03441A70F97F00D4F6E2 /* title@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03291A70F97F00D4F6E2 /* title@3x.png */; };
+		075C03D21A7128DB00D4F6E2 /* chemigjera.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03CF1A7128DB00D4F6E2 /* chemigjera.png */; };
+		075C03D31A7128DB00D4F6E2 /* chemigjera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03D01A7128DB00D4F6E2 /* chemigjera@2x.png */; };
+		075C03D41A7128DB00D4F6E2 /* chemigjera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C03D11A7128DB00D4F6E2 /* chemigjera@3x.png */; };
+		075C03D71A71327E00D4F6E2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 075C03D61A71327E00D4F6E2 /* Reachability.m */; };
+		07BF80B71A36F0F50019311B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BF80B61A36F0F50019311B /* libz.dylib */; };
+		07BF81EE1A36F8F40019311B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BF81ED1A36F8F40019311B /* CoreData.framework */; };
+		07BF82041A36FBF30019311B /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BF82021A36FBF30019311B /* libGoogleAnalyticsServices.a */; };
+		07BF82061A36FC380019311B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BF82051A36FC380019311B /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +109,98 @@
 		0753082B1A35B53A004D4772 /* chemigjeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chemigjeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		075308301A35B53A004D4772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		075308311A35B53A004D4772 /* chemigjeraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chemigjeraTests.m; sourceTree = "<group>"; };
+		0753083B1A35B5BF004D4772 /* PopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUpView.h; sourceTree = "<group>"; };
+		0753083C1A35B5BF004D4772 /* PopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopUpView.m; sourceTree = "<group>"; };
+		0753083E1A35B5FF004D4772 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../externalLibs/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		075308541A35B60C004D4772 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		075308551A35B60C004D4772 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		075308561A35B60C004D4772 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		075308571A35B60C004D4772 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		075308581A35B60C004D4772 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		075308591A35B60C004D4772 /* GADInAppPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchase.h; sourceTree = "<group>"; };
+		0753085A1A35B60C004D4772 /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchaseDelegate.h; sourceTree = "<group>"; };
+		0753085B1A35B60C004D4772 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		0753085C1A35B60C004D4772 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		0753085D1A35B60C004D4772 /* GADModules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADModules.h; sourceTree = "<group>"; };
+		0753085E1A35B60C004D4772 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		0753085F1A35B60C004D4772 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		075308601A35B60C004D4772 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		075308611A35B60C004D4772 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		075308641A35B65C004D4772 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		075308651A35B65C004D4772 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		075308661A35B65C004D4772 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		075308671A35B65C004D4772 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		075308681A35B65C004D4772 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		075308691A35B65C004D4772 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		0753086A1A35B65C004D4772 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		0753086B1A35B65C004D4772 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0753086C1A35B65C004D4772 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0753086D1A35B65C004D4772 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		075308CA1A35B9BA004D4772 /* bpg_rioni.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = bpg_rioni.otf; path = ../../../Downloads/bpg_rioni.otf; sourceTree = "<group>"; };
+		075C02E81A70F94200D4F6E2 /* brbo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = brbo.mp3; sourceTree = "<group>"; };
+		075C02E91A70F94200D4F6E2 /* cheidevi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cheidevi.mp3; sourceTree = "<group>"; };
+		075C02EA1A70F94200D4F6E2 /* chemi_gjera.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chemi_gjera.mp3; sourceTree = "<group>"; };
+		075C02EB1A70F94200D4F6E2 /* chemi_komentari.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chemi_komentari.mp3; sourceTree = "<group>"; };
+		075C02EC1A70F94200D4F6E2 /* daeca_macivari.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = daeca_macivari.mp3; sourceTree = "<group>"; };
+		075C02ED1A70F94200D4F6E2 /* dagvatenda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dagvatenda.mp3; sourceTree = "<group>"; };
+		075C02EE1A70F94200D4F6E2 /* damakhia_bagaji.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = damakhia_bagaji.mp3; sourceTree = "<group>"; };
+		075C02EF1A70F94200D4F6E2 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+		075C02F01A70F94200D4F6E2 /* gasaupatiurebeli_qalebi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gasaupatiurebeli_qalebi.mp3; sourceTree = "<group>"; };
+		075C02F11A70F94200D4F6E2 /* gataxsirebuli.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gataxsirebuli.mp3; sourceTree = "<group>"; };
+		075C02F21A70F94200D4F6E2 /* kargia_kiketi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kargia_kiketi.mp3; sourceTree = "<group>"; };
+		075C02F31A70F94200D4F6E2 /* mageni_kaxpebi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mageni_kaxpebi.mp3; sourceTree = "<group>"; };
+		075C02F41A70F94200D4F6E2 /* me_var_debili.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = me_var_debili.mp3; sourceTree = "<group>"; };
+		075C02F51A70F94200D4F6E2 /* nacionali_yofila.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nacionali_yofila.mp3; sourceTree = "<group>"; };
+		075C02F61A70F94200D4F6E2 /* oiei.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oiei.mp3; sourceTree = "<group>"; };
+		075C02F71A70F94200D4F6E2 /* patruls_vuxdi_madlobas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = patruls_vuxdi_madlobas.mp3; sourceTree = "<group>"; };
+		075C02F81A70F94200D4F6E2 /* rac_umfro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rac_umfro.mp3; sourceTree = "<group>"; };
+		075C02F91A70F94200D4F6E2 /* why_do_dey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = why_do_dey.mp3; sourceTree = "<group>"; };
+		075C02FA1A70F94200D4F6E2 /* xaxvi_xoaraa_koxora.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xaxvi_xoaraa_koxora.mp3; sourceTree = "<group>"; };
+		075C030E1A70F97F00D4F6E2 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/share.png"; sourceTree = "<group>"; };
+		075C030F1A70F97F00D4F6E2 /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "share@2x.png"; path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/share@2x.png"; sourceTree = "<group>"; };
+		075C03101A70F97F00D4F6E2 /* share@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "share@3x.png"; path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/share@3x.png"; sourceTree = "<group>"; };
+		075C03111A70F97F00D4F6E2 /* smileOut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smileOut.png; path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/smileOut.png"; sourceTree = "<group>"; };
+		075C03121A70F97F00D4F6E2 /* smileOut@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smileOut@2x.png"; path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/smileOut@2x.png"; sourceTree = "<group>"; };
+		075C03131A70F97F00D4F6E2 /* smileOut@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smileOut@3x.png"; path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/smileOut@3x.png"; sourceTree = "<group>"; };
+		075C03141A70F97F00D4F6E2 /* soundBtn_Out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soundBtn_Out.png; path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/soundBtn_Out.png"; sourceTree = "<group>"; };
+		075C03151A70F97F00D4F6E2 /* soundBtn_Out@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "soundBtn_Out@2x.png"; path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/soundBtn_Out@2x.png"; sourceTree = "<group>"; };
+		075C03161A70F97F00D4F6E2 /* soundBtn_Out@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "soundBtn_Out@3x.png"; path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/soundBtn_Out@3x.png"; sourceTree = "<group>"; };
+		075C03171A70F97F00D4F6E2 /* soundBtn_Over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soundBtn_Over.png; path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/soundBtn_Over.png"; sourceTree = "<group>"; };
+		075C03181A70F97F00D4F6E2 /* soundBtn_Over@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "soundBtn_Over@2x.png"; path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/soundBtn_Over@2x.png"; sourceTree = "<group>"; };
+		075C03191A70F97F00D4F6E2 /* soundBtn_Over@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "soundBtn_Over@3x.png"; path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/soundBtn_Over@3x.png"; sourceTree = "<group>"; };
+		075C031A1A70F97F00D4F6E2 /* soundBtn_Stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soundBtn_Stop.png; path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/soundBtn_Stop.png"; sourceTree = "<group>"; };
+		075C031B1A70F97F00D4F6E2 /* soundBtn_Stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "soundBtn_Stop@2x.png"; path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/soundBtn_Stop@2x.png"; sourceTree = "<group>"; };
+		075C031C1A70F97F00D4F6E2 /* soundBtn_Stop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "soundBtn_Stop@3x.png"; path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/soundBtn_Stop@3x.png"; sourceTree = "<group>"; };
+		075C031D1A70F97F00D4F6E2 /* subscribe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = subscribe.png; path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/subscribe.png"; sourceTree = "<group>"; };
+		075C031E1A70F97F00D4F6E2 /* subscribe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "subscribe@2x.png"; path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/subscribe@2x.png"; sourceTree = "<group>"; };
+		075C031F1A70F97F00D4F6E2 /* subscribe@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "subscribe@3x.png"; path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/subscribe@3x.png"; sourceTree = "<group>"; };
+		075C03211A70F97F00D4F6E2 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		075C03221A70F97F00D4F6E2 /* header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header@2x.png"; sourceTree = "<group>"; };
+		075C03231A70F97F00D4F6E2 /* header@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header@3x.png"; sourceTree = "<group>"; };
+		075C03241A70F97F00D4F6E2 /* smileOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smileOver.png; sourceTree = "<group>"; };
+		075C03251A70F97F00D4F6E2 /* smileOver@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smileOver@2x.png"; sourceTree = "<group>"; };
+		075C03261A70F97F00D4F6E2 /* smileOver@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smileOver@3x.png"; sourceTree = "<group>"; };
+		075C03271A70F97F00D4F6E2 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		075C03281A70F97F00D4F6E2 /* title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title@2x.png"; sourceTree = "<group>"; };
+		075C03291A70F97F00D4F6E2 /* title@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title@3x.png"; sourceTree = "<group>"; };
+		075C03CF1A7128DB00D4F6E2 /* chemigjera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chemigjera.png; sourceTree = "<group>"; };
+		075C03D01A7128DB00D4F6E2 /* chemigjera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chemigjera@2x.png"; sourceTree = "<group>"; };
+		075C03D11A7128DB00D4F6E2 /* chemigjera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chemigjera@3x.png"; sourceTree = "<group>"; };
+		075C03D51A71327E00D4F6E2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../../Downloads/Reachability/Reachability/Reachability.h; sourceTree = "<group>"; };
+		075C03D61A71327E00D4F6E2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../../Downloads/Reachability/Reachability/Reachability.m; sourceTree = "<group>"; };
+		07BF80B61A36F0F50019311B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		07BF81ED1A36F8F40019311B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		07BF81F71A36FBF30019311B /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		07BF81F81A36FBF30019311B /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		07BF81FA1A36FBF30019311B /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		07BF81FB1A36FBF30019311B /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		07BF81FC1A36FBF30019311B /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		07BF81FD1A36FBF30019311B /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		07BF81FE1A36FBF30019311B /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		07BF81FF1A36FBF30019311B /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		07BF82001A36FBF30019311B /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		07BF82021A36FBF30019311B /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		07BF82051A36FC380019311B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +208,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07BF82061A36FC380019311B /* libsqlite3.dylib in Frameworks */,
+				07BF81EE1A36F8F40019311B /* CoreData.framework in Frameworks */,
+				07BF80B71A36F0F50019311B /* libz.dylib in Frameworks */,
+				0753086E1A35B65C004D4772 /* AdSupport.framework in Frameworks */,
+				0753086F1A35B65C004D4772 /* AudioToolbox.framework in Frameworks */,
+				075308701A35B65C004D4772 /* AVFoundation.framework in Frameworks */,
+				075308711A35B65C004D4772 /* CoreGraphics.framework in Frameworks */,
+				075308721A35B65C004D4772 /* CoreTelephony.framework in Frameworks */,
+				075308731A35B65C004D4772 /* EventKit.framework in Frameworks */,
+				075308741A35B65C004D4772 /* EventKitUI.framework in Frameworks */,
+				075308751A35B65C004D4772 /* MessageUI.framework in Frameworks */,
+				07BF82041A36FBF30019311B /* libGoogleAnalyticsServices.a in Frameworks */,
+				075308761A35B65C004D4772 /* StoreKit.framework in Frameworks */,
+				075308771A35B65C004D4772 /* SystemConfiguration.framework in Frameworks */,
+				0753083F1A35B5FF004D4772 /* FacebookSDK.framework in Frameworks */,
+				075308621A35B60C004D4772 /* libGoogleAdMobAds.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +240,25 @@
 		075308091A35B539004D4772 = {
 			isa = PBXGroup;
 			children = (
+				07BF82051A36FC380019311B /* libsqlite3.dylib */,
+				07BF81ED1A36F8F40019311B /* CoreData.framework */,
+				07BF80B61A36F0F50019311B /* libz.dylib */,
+				075308CA1A35B9BA004D4772 /* bpg_rioni.otf */,
+				07BF818E1A36F7A20019311B /* GoogleAnalytics */,
+				075308641A35B65C004D4772 /* AdSupport.framework */,
+				075308651A35B65C004D4772 /* AudioToolbox.framework */,
+				075308661A35B65C004D4772 /* AVFoundation.framework */,
+				075308671A35B65C004D4772 /* CoreGraphics.framework */,
+				075308681A35B65C004D4772 /* CoreTelephony.framework */,
+				075308691A35B65C004D4772 /* EventKit.framework */,
+				0753086A1A35B65C004D4772 /* EventKitUI.framework */,
+				0753086B1A35B65C004D4772 /* MessageUI.framework */,
+				0753086C1A35B65C004D4772 /* StoreKit.framework */,
+				0753086D1A35B65C004D4772 /* SystemConfiguration.framework */,
+				075308401A35B60C004D4772 /* GoogleMobileAdsSdkiOS-6.12.2 */,
+				0753083E1A35B5FF004D4772 /* FacebookSDK.framework */,
+				075C03D51A71327E00D4F6E2 /* Reachability.h */,
+				075C03D61A71327E00D4F6E2 /* Reachability.m */,
 				075308141A35B539004D4772 /* chemigjera */,
 				0753082E1A35B53A004D4772 /* chemigjeraTests */,
 				075308131A35B539004D4772 /* Products */,
@@ -81,6 +277,8 @@
 		075308141A35B539004D4772 /* chemigjera */ = {
 			isa = PBXGroup;
 			children = (
+				0753083B1A35B5BF004D4772 /* PopUpView.h */,
+				0753083C1A35B5BF004D4772 /* PopUpView.m */,
 				075308191A35B53A004D4772 /* AppDelegate.h */,
 				0753081A1A35B53A004D4772 /* AppDelegate.m */,
 				0753081C1A35B53A004D4772 /* ViewController.h */,
@@ -88,6 +286,7 @@
 				0753081F1A35B53A004D4772 /* Main.storyboard */,
 				075308221A35B53A004D4772 /* Images.xcassets */,
 				075308241A35B53A004D4772 /* LaunchScreen.xib */,
+				075C02E61A70F92B00D4F6E2 /* Resources */,
 				075308151A35B539004D4772 /* Supporting Files */,
 			);
 			path = chemigjera;
@@ -118,6 +317,129 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		075308401A35B60C004D4772 /* GoogleMobileAdsSdkiOS-6.12.2 */ = {
+			isa = PBXGroup;
+			children = (
+				075308541A35B60C004D4772 /* GADAdMobExtras.h */,
+				075308551A35B60C004D4772 /* GADAdNetworkExtras.h */,
+				075308561A35B60C004D4772 /* GADAdSize.h */,
+				075308571A35B60C004D4772 /* GADBannerView.h */,
+				075308581A35B60C004D4772 /* GADBannerViewDelegate.h */,
+				075308591A35B60C004D4772 /* GADInAppPurchase.h */,
+				0753085A1A35B60C004D4772 /* GADInAppPurchaseDelegate.h */,
+				0753085B1A35B60C004D4772 /* GADInterstitial.h */,
+				0753085C1A35B60C004D4772 /* GADInterstitialDelegate.h */,
+				0753085D1A35B60C004D4772 /* GADModules.h */,
+				0753085E1A35B60C004D4772 /* GADRequest.h */,
+				0753085F1A35B60C004D4772 /* GADRequestError.h */,
+				075308601A35B60C004D4772 /* libGoogleAdMobAds.a */,
+				075308611A35B60C004D4772 /* README.txt */,
+			);
+			name = "GoogleMobileAdsSdkiOS-6.12.2";
+			path = "../../../Downloads/GoogleMobileAdsSdkiOS-6.12.2";
+			sourceTree = "<group>";
+		};
+		075C02E61A70F92B00D4F6E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				075C030E1A70F97F00D4F6E2 /* share.png */,
+				075C030F1A70F97F00D4F6E2 /* share@2x.png */,
+				075C03101A70F97F00D4F6E2 /* share@3x.png */,
+				075C03111A70F97F00D4F6E2 /* smileOut.png */,
+				075C03121A70F97F00D4F6E2 /* smileOut@2x.png */,
+				075C03131A70F97F00D4F6E2 /* smileOut@3x.png */,
+				075C03141A70F97F00D4F6E2 /* soundBtn_Out.png */,
+				075C03151A70F97F00D4F6E2 /* soundBtn_Out@2x.png */,
+				075C03161A70F97F00D4F6E2 /* soundBtn_Out@3x.png */,
+				075C03171A70F97F00D4F6E2 /* soundBtn_Over.png */,
+				075C03181A70F97F00D4F6E2 /* soundBtn_Over@2x.png */,
+				075C03191A70F97F00D4F6E2 /* soundBtn_Over@3x.png */,
+				075C031A1A70F97F00D4F6E2 /* soundBtn_Stop.png */,
+				075C031B1A70F97F00D4F6E2 /* soundBtn_Stop@2x.png */,
+				075C031C1A70F97F00D4F6E2 /* soundBtn_Stop@3x.png */,
+				075C031D1A70F97F00D4F6E2 /* subscribe.png */,
+				075C031E1A70F97F00D4F6E2 /* subscribe@2x.png */,
+				075C031F1A70F97F00D4F6E2 /* subscribe@3x.png */,
+				075C03201A70F97F00D4F6E2 /* texture1 */,
+				075C02E71A70F94200D4F6E2 /* 1 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		075C02E71A70F94200D4F6E2 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				075C02E81A70F94200D4F6E2 /* brbo.mp3 */,
+				075C02E91A70F94200D4F6E2 /* cheidevi.mp3 */,
+				075C02EA1A70F94200D4F6E2 /* chemi_gjera.mp3 */,
+				075C02EB1A70F94200D4F6E2 /* chemi_komentari.mp3 */,
+				075C02EC1A70F94200D4F6E2 /* daeca_macivari.mp3 */,
+				075C02ED1A70F94200D4F6E2 /* dagvatenda.mp3 */,
+				075C02EE1A70F94200D4F6E2 /* damakhia_bagaji.mp3 */,
+				075C02EF1A70F94200D4F6E2 /* data.txt */,
+				075C02F01A70F94200D4F6E2 /* gasaupatiurebeli_qalebi.mp3 */,
+				075C02F11A70F94200D4F6E2 /* gataxsirebuli.mp3 */,
+				075C02F21A70F94200D4F6E2 /* kargia_kiketi.mp3 */,
+				075C02F31A70F94200D4F6E2 /* mageni_kaxpebi.mp3 */,
+				075C02F41A70F94200D4F6E2 /* me_var_debili.mp3 */,
+				075C02F51A70F94200D4F6E2 /* nacionali_yofila.mp3 */,
+				075C02F61A70F94200D4F6E2 /* oiei.mp3 */,
+				075C02F71A70F94200D4F6E2 /* patruls_vuxdi_madlobas.mp3 */,
+				075C02F81A70F94200D4F6E2 /* rac_umfro.mp3 */,
+				075C02F91A70F94200D4F6E2 /* why_do_dey.mp3 */,
+				075C02FA1A70F94200D4F6E2 /* xaxvi_xoaraa_koxora.mp3 */,
+			);
+			name = 1;
+			path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/1";
+			sourceTree = "<group>";
+		};
+		075C03201A70F97F00D4F6E2 /* texture1 */ = {
+			isa = PBXGroup;
+			children = (
+				075C03211A70F97F00D4F6E2 /* header.png */,
+				075C03CF1A7128DB00D4F6E2 /* chemigjera.png */,
+				075C03D01A7128DB00D4F6E2 /* chemigjera@2x.png */,
+				075C03D11A7128DB00D4F6E2 /* chemigjera@3x.png */,
+				075C03221A70F97F00D4F6E2 /* header@2x.png */,
+				075C03231A70F97F00D4F6E2 /* header@3x.png */,
+				075C03241A70F97F00D4F6E2 /* smileOver.png */,
+				075C03251A70F97F00D4F6E2 /* smileOver@2x.png */,
+				075C03261A70F97F00D4F6E2 /* smileOver@3x.png */,
+				075C03271A70F97F00D4F6E2 /* title.png */,
+				075C03281A70F97F00D4F6E2 /* title@2x.png */,
+				075C03291A70F97F00D4F6E2 /* title@3x.png */,
+			);
+			name = texture1;
+			path = "../../../../../Dropbox/projects/Chemi Gjera/app/media/iPhone/textures/texture1";
+			sourceTree = "<group>";
+		};
+		07BF818E1A36F7A20019311B /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				07BF81F61A36FBF30019311B /* Library */,
+			);
+			name = GoogleAnalytics;
+			path = ../../../Downloads/GoogleAnalyticsServicesiOS_3.10/GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		07BF81F61A36FBF30019311B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				07BF81F71A36FBF30019311B /* GAI.h */,
+				07BF81F81A36FBF30019311B /* GAIDictionaryBuilder.h */,
+				07BF81FA1A36FBF30019311B /* GAIEcommerceProduct.h */,
+				07BF81FB1A36FBF30019311B /* GAIEcommerceProductAction.h */,
+				07BF81FC1A36FBF30019311B /* GAIEcommercePromotion.h */,
+				07BF81FD1A36FBF30019311B /* GAIFields.h */,
+				07BF81FE1A36FBF30019311B /* GAILogger.h */,
+				07BF81FF1A36FBF30019311B /* GAITrackedViewController.h */,
+				07BF82001A36FBF30019311B /* GAITracker.h */,
+				07BF82021A36FBF30019311B /* libGoogleAnalyticsServices.a */,
+			);
+			name = Library;
+			path = chemigjera/Library;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -168,6 +490,7 @@
 				TargetAttributes = {
 					075308111A35B539004D4772 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = TPPGHHSC8F;
 					};
 					0753082A1A35B53A004D4772 = {
 						CreatedOnToolsVersion = 6.1;
@@ -200,8 +523,59 @@
 			buildActionMask = 2147483647;
 			files = (
 				075308211A35B53A004D4772 /* Main.storyboard in Resources */,
+				075C03371A70F97F00D4F6E2 /* soundBtn_Stop@2x.png in Resources */,
+				075308CB1A35B9BA004D4772 /* bpg_rioni.otf in Resources */,
+				075C033C1A70F97F00D4F6E2 /* header.png in Resources */,
+				075C03411A70F97F00D4F6E2 /* smileOver@3x.png in Resources */,
+				075C03081A70F94200D4F6E2 /* nacionali_yofila.mp3 in Resources */,
+				075C033A1A70F97F00D4F6E2 /* subscribe@2x.png in Resources */,
+				075C030D1A70F94200D4F6E2 /* xaxvi_xoaraa_koxora.mp3 in Resources */,
+				075C03441A70F97F00D4F6E2 /* title@3x.png in Resources */,
+				075C03011A70F94200D4F6E2 /* damakhia_bagaji.mp3 in Resources */,
+				075C03421A70F97F00D4F6E2 /* title.png in Resources */,
+				075C03001A70F94200D4F6E2 /* dagvatenda.mp3 in Resources */,
+				075C03D21A7128DB00D4F6E2 /* chemigjera.png in Resources */,
+				075C03351A70F97F00D4F6E2 /* soundBtn_Over@3x.png in Resources */,
+				075C033F1A70F97F00D4F6E2 /* smileOver.png in Resources */,
+				075C030B1A70F94200D4F6E2 /* rac_umfro.mp3 in Resources */,
+				075C032A1A70F97F00D4F6E2 /* share.png in Resources */,
 				075308261A35B53A004D4772 /* LaunchScreen.xib in Resources */,
+				075C032D1A70F97F00D4F6E2 /* smileOut.png in Resources */,
+				075C02FF1A70F94200D4F6E2 /* daeca_macivari.mp3 in Resources */,
+				075C03301A70F97F00D4F6E2 /* soundBtn_Out.png in Resources */,
+				075C032B1A70F97F00D4F6E2 /* share@2x.png in Resources */,
+				075C032C1A70F97F00D4F6E2 /* share@3x.png in Resources */,
+				075C03041A70F94200D4F6E2 /* gataxsirebuli.mp3 in Resources */,
+				075C032E1A70F97F00D4F6E2 /* smileOut@2x.png in Resources */,
+				075C03331A70F97F00D4F6E2 /* soundBtn_Over.png in Resources */,
+				075C03381A70F97F00D4F6E2 /* soundBtn_Stop@3x.png in Resources */,
+				075C030C1A70F94200D4F6E2 /* why_do_dey.mp3 in Resources */,
+				075C033D1A70F97F00D4F6E2 /* header@2x.png in Resources */,
+				075C02FD1A70F94200D4F6E2 /* chemi_gjera.mp3 in Resources */,
+				075C03341A70F97F00D4F6E2 /* soundBtn_Over@2x.png in Resources */,
+				075C03431A70F97F00D4F6E2 /* title@2x.png in Resources */,
+				075C03321A70F97F00D4F6E2 /* soundBtn_Out@3x.png in Resources */,
+				075C03D31A7128DB00D4F6E2 /* chemigjera@2x.png in Resources */,
+				075C03401A70F97F00D4F6E2 /* smileOver@2x.png in Resources */,
+				075C033E1A70F97F00D4F6E2 /* header@3x.png in Resources */,
+				075C03031A70F94200D4F6E2 /* gasaupatiurebeli_qalebi.mp3 in Resources */,
+				075308631A35B60C004D4772 /* README.txt in Resources */,
+				075C03311A70F97F00D4F6E2 /* soundBtn_Out@2x.png in Resources */,
+				075C03061A70F94200D4F6E2 /* mageni_kaxpebi.mp3 in Resources */,
+				075C03361A70F97F00D4F6E2 /* soundBtn_Stop.png in Resources */,
+				075C033B1A70F97F00D4F6E2 /* subscribe@3x.png in Resources */,
+				075C03D41A7128DB00D4F6E2 /* chemigjera@3x.png in Resources */,
 				075308231A35B53A004D4772 /* Images.xcassets in Resources */,
+				075C030A1A70F94200D4F6E2 /* patruls_vuxdi_madlobas.mp3 in Resources */,
+				075C02FB1A70F94200D4F6E2 /* brbo.mp3 in Resources */,
+				075C02FE1A70F94200D4F6E2 /* chemi_komentari.mp3 in Resources */,
+				075C03021A70F94200D4F6E2 /* data.txt in Resources */,
+				075C03391A70F97F00D4F6E2 /* subscribe.png in Resources */,
+				075C03091A70F94200D4F6E2 /* oiei.mp3 in Resources */,
+				075C03071A70F94200D4F6E2 /* me_var_debili.mp3 in Resources */,
+				075C03051A70F94200D4F6E2 /* kargia_kiketi.mp3 in Resources */,
+				075C02FC1A70F94200D4F6E2 /* cheidevi.mp3 in Resources */,
+				075C032F1A70F97F00D4F6E2 /* smileOut@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +594,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0753081E1A35B53A004D4772 /* ViewController.m in Sources */,
+				0753083D1A35B5BF004D4772 /* PopUpView.m in Sources */,
 				0753081B1A35B53A004D4772 /* AppDelegate.m in Sources */,
 				075308181A35B53A004D4772 /* main.m in Sources */,
+				075C03D71A71327E00D4F6E2 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +673,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +709,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -345,9 +721,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nextep LLC (TPPGHHSC8F)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/NextepMac/Documents/projects/externalLibs/FacebookSDK,
+				);
 				INFOPLIST_FILE = chemigjera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/NextepMac/Downloads/GoogleMobileAdsSdkiOS-6.12.2",
+					/Users/NextepMac/Downloads/GoogleAnalyticsServicesiOS_3.10,
+					"$(PROJECT_DIR)/chemigjera/Library",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cd085535-66fe-437a-a199-e5f68814cfb1";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -355,9 +745,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nextep LLC (TPPGHHSC8F)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/NextepMac/Documents/projects/externalLibs/FacebookSDK,
+				);
 				INFOPLIST_FILE = chemigjera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/NextepMac/Downloads/GoogleMobileAdsSdkiOS-6.12.2",
+					/Users/NextepMac/Downloads/GoogleAnalyticsServicesiOS_3.10,
+					"$(PROJECT_DIR)/chemigjera/Library",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cd085535-66fe-437a-a199-e5f68814cfb1";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -414,6 +818,7 @@
 				075308371A35B53A004D4772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		075308381A35B53A004D4772 /* Build configuration list for PBXNativeTarget "chemigjeraTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +827,7 @@
 				0753083A1A35B53A004D4772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

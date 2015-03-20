@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
-//  chemigjera
+//  ChemiGjera
 //
-//  Created by NextepMac on 12/8/14.
+//  Created by NextepMac on 11/21/14.
 //  Copyright (c) 2014 NextepMac. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "GAI.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    // Optional: automatically send uncaught exceptions to Google Analytics.
+    [GAI sharedInstance].trackUncaughtExceptions = YES;
+    
+    // Optional: set Google Analytics dispatch interval to e.g. 20 seconds.
+    [GAI sharedInstance].dispatchInterval = 20;
+    
+    // Optional: set Logger to VERBOSE for debug information.
+    [[[GAI sharedInstance] logger] setLogLevel:kGAILogLevelVerbose];
+    
+    // Initialize tracker. Replace with your tracking ID.
+    [[GAI sharedInstance] trackerWithTrackingId:@"UA-55859278-6"];
+    
+    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+
     return YES;
 }
 
